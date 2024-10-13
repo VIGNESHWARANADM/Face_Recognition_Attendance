@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 #Initialize the FireBase Setup to Access - [API]
-cred = credentials.Certificate(r"xxx\xxx\xxx\ServiceAccountKey.json")
+cred = credentials.Certificate(r"xxx\xxx\xxx\ServiceAccountKey.json") #Json File Path
 firebase_admin.initialize_app(cred,{
     'databaseURL':"https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxx.firebaseio.com/", #DataBase Name
     'storageBucket':"xxxxxxxxxxxxxxxxxxxxxx.appspot.com"                         #Storage path
